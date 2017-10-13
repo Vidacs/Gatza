@@ -133,7 +133,7 @@
         height: 100%;
         padding: 10px 10px;
         /* background: #2196F3; */
-        background: #7fdad5;
+        background: #B1C197;
         color: #fff;
         display: block;
         border: none;
@@ -303,9 +303,9 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="http://www.birdev.mx/gatza">Inicio</a></li>
                 <li><a href="http://www.birdev.mx/gatza/#about">Acerca de Expo Construye Gatza</a></li>
-                <li class="active"><a href="http://www.birdev.mx/gatza/#gallery">Expositores</a></li>
+                <li ><a href="http://www.birdev.mx/gatza/#gallery">Expositores</a></li>
                 <li><a href="http://www.birdev.mx/gatza/#pricing">Programa</a></li>
-                <li><a href="http://www.birdev.mx/gatza/#contact">Registro</a></li>
+                <li class="active"><a href="http://birdev.mx/gatza/registro/public/">Registro</a></li>
             </ul>  
         </div>
 </nav>
