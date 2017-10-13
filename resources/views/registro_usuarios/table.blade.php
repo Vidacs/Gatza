@@ -13,7 +13,7 @@
     <tbody>
     @foreach($registroUsuarios as $registroUsuarios)
         <tr>
-            <td>{!! $registroUsuarios->id_registro !!}</td>
+            <td>{!! $registroUsuarios->id !!}</td>
             <td>{!! $registroUsuarios->nombre !!}</td>
             <td>{!! $registroUsuarios->apellidos !!}</td>
             <td>{!! $registroUsuarios->email !!}</td>

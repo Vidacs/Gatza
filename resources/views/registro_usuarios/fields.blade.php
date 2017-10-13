@@ -1,9 +1,3 @@
-<!-- Id Registro Field -->
-<div class="form-group col-sm-6">
-    {!! Form::label('id_registro', 'Id Registro:') !!}
-    {!! Form::number('id_registro', null, ['class' => 'form-control']) !!}
-</div>
-
 <!-- Nombre Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('nombre', 'Nombre:') !!}
