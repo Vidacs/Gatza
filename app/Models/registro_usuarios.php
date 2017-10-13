@@ -30,7 +30,7 @@ class registro_usuarios extends Model
 
 
     public $fillable = [
-        'id_registro',
+        'id',
         'nombre',
         'apellidos',
         'email',
@@ -43,7 +43,7 @@ class registro_usuarios extends Model
      * @var array
      */
     protected $casts = [
-        'id_registro' => 'integer',
+        'id' => 'integer',
         'nombre' => 'string',
         'apellidos' => 'string',
         'email' => 'string',

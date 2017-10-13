@@ -33,5 +33,6 @@ Route::post('password/reset', 'Auth\PasswordController@postReset');
 Route::get('/home', 'HomeController@index');
 
 Route::resource('registroUsuarios', 'registro_usuariosController');
+///Route::resource('registro_usuarios', 'registro_usuariosController');
 
-Route::resource('registros', 'registroController');
+
