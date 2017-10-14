@@ -441,7 +441,9 @@ $(document).ready(function()
               $state.html('Registro exitoso !');
               setTimeout(function () {
                   $state.addClass('hecho');
-                  $state.html('Bienvenido a Expo construye Gatza !!!');
+                  //$state.html('Bienvenido a Expo construye Gatza !!!');
+                  $state.html('Bienvenido a Expo construye Gatza !!!<br><br><a href="http://birdev.mx/gatza/">Regresar al inicio</a>');
+
                   // $this.removeClass('ok loading');
                   working = false;
                   // var form = document.getElementById('login');
@@ -467,7 +469,7 @@ $(document).ready(function()
                         .done(function(data)
                         {
                             console.log(data);
-                            $('#boton').append('<a href="http://expohomedesign.com" class="btn btn-primary btn-ripple" style="margin-top: 30px; background-color: #2196F3; border-color: #2196F3;">Ir Expo construye Gatza</a>');
+                            $('#boton').append('<a href="http://www.birdev.mx/gatza" class="btn btn-primary btn-ripple" style="margin-top: 30px; background-color: #2196F3; border-color: #2196F3;">Ir Expo construye Gatza</a>');
                         });
                         // event.preventDefault();
               }, 2000);
