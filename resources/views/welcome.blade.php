@@ -306,6 +306,7 @@
                 <li ><a href="http://www.birdev.mx/gatza/#gallery">Expositores</a></li>
                 <li><a href="http://www.birdev.mx/gatza/#pricing">Programa</a></li>
                 <li class="active"><a href="http://birdev.mx/gatza/registro/public/">Registro</a></li>
+                <li><a href="http://www.birdev.mx/gatza/registro/public/login">Entrar</a></li>
             </ul>  
         </div>
 </nav>
@@ -466,7 +467,7 @@ $(document).ready(function()
                         .done(function(data)
                         {
                             console.log(data);
-                            $('#boton').append('<a href="http://expohomedesign.com" class="btn btn-primary btn-ripple" style="margin-top: 30px; background-color: #2196F3; border-color: #2196F3;">Ir a Home Design</a>');
+                            $('#boton').append('<a href="http://expohomedesign.com" class="btn btn-primary btn-ripple" style="margin-top: 30px; background-color: #2196F3; border-color: #2196F3;">Ir Expo construye Gatza</a>');
                         });
                         // event.preventDefault();
               }, 2000);
